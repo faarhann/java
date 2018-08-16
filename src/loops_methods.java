@@ -37,7 +37,7 @@ public class loops_methods {
         int i=0;
 
         while (i < size){
-
+            printStars(i);
             i++;
         }
     }
