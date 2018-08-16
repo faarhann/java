@@ -4,7 +4,8 @@ public class loops_methods {
 
 
 
-       printTriangle(4);
+     printTriangle(4);
+     printSpace(4);
 
     }
     public static void printStars(int amount){
@@ -40,5 +41,14 @@ public class loops_methods {
             printStars(i);
             i++;
         }
+
+    }
+    public static void printSpace(int size){
+        int i = 0;
+        while (i < size){
+            System.out.print(" ");
+            i++;
+        }
+
     }
 }
